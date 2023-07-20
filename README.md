@@ -58,8 +58,8 @@
         </td>
     </tr>
     <tr>
-        <td><img src=https://cdn.fliggy.com/upic/rdeeLu.jpg width=600/></td>
-        <td><img src=https://cdn.fliggy.com/upic/7QUfi3.png width=600/></td>
+        <td><img src=https://cdn.fliggy.com/upic/Ld5ZCJ.png width=600/></td>
+        <td><img src=https://gw.alipayobjects.com/zos/k/95/bcGBut.png width=600/></td>
     </tr>
     <tr>
       <td>YouTube Music
@@ -75,7 +75,7 @@
     </tr>
     <tr>
         <td><img src=https://cdn.fliggy.com/upic/iz3mtQ.png width=600/></td>
-        <td><img src=https://cdn.fliggy.com/upic/s4ZLNC.jpg width=600/></td>
+        <td><img src=https://gw.alipayobjects.com/zos/k/pn/1.jpg width=600/></td>
     </tr>
     <tr>
         <td>LiZhi
@@ -91,7 +91,7 @@
     </tr>
     <tr>
         <td><img src=https://cdn.fliggy.com/upic/nYEKqN.jpg width=600/></td>
-        <td><img src=https://cdn.fliggy.com/upic/0C9lju.jpg width=600/></td>
+        <td><img src=https://gw.alipayobjects.com/zos/k/r7/0C9lju.jpg width=600/></td>
     </tr>
     <tr>
         <td>Qwerty
@@ -123,7 +123,7 @@
     </tr>
     <tr>
         <td><img src=https://gw.alipayobjects.com/zos/k/30/RoUSUf.png width=600/></td>
-        <td><img src=https://cdn.fliggy.com/upic/yJVwyi.png width=600/></td>
+        <td><img src=https://gw.alipayobjects.com/zos/k/89/yJVwyi.png width=600/></td>
     </tr>
 </table>
 
@@ -159,7 +159,7 @@ In addition, double-click the title bar to switch to full-screen mode. For Mac u
 
 ![Pake](https://gw.alipayobjects.com/zos/k/zd/pake.gif)
 
-**Pake provides a command line tool, making the flow of package customization quicker and easier. See [documentation](./bin/README_EN.md) for more information.**
+**Pake provides a command line tool, making the flow of package customization quicker and easier. See [documentation](./bin/README.md) for more information.**
 
 ```bash
 # Install with npm
@@ -194,11 +194,11 @@ npm run build
 ## Advanced Usage
 
 1. You can refer to the [codebase structure](https://github.com/tw93/Pake/wiki/Description-of-Pake's-code-structure) before working on Pake, which will help you much in development.
-2. Modify the `url` and `productName` fields in the `pake.json` file under the src-tauri directory, as well as the `icon` and `identifier` fields in the `tauri.xxx.conf.json` file. You can select a `icon` from the `icons` directory or download one from [macOSicons](https://macosicons.com/#/) to match your product needs.
+2. Modify the `url` and `productName` fields in the `pake.json` file under the src-tauri directory, the "domain" field in the `tauri.config.json` file needs to be modified synchronously, as well as the `icon` and `identifier` fields in the `tauri.xxx.conf.json` file. You can select a `icon` from the `icons` directory or download one from [macOSicons](https://macosicons.com/#/) to match your product needs.
 3. For configurations on window properties, you can modify the `pake.json` file to change the value of `width`, `height`, `fullscreen` (or not), `resizable` (or not) of the `windows` property. To adapt to the immersive header on Mac, change `transparent` to `true`, look for the `Header` element, and add the `padding-top` property.
 4. For advanced usages such as style rewriting, advertisement removal, JS injection, container message communication, and user-defined shortcut keys, see [Advanced Usage of Pake](https://github.com/tw93/Pake/wiki/Advanced-Usage-of-Pake).
 
-## Developer
+## Developers
 
 Pake's development can not be without these Hackers. They contributed a lot of capabilities for Pake. Also, welcome to follow them! ❤️
 
@@ -270,6 +270,13 @@ Pake's development can not be without these Hackers. They contributed a lot of c
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/jeasonnow">
+            <img src="https://avatars.githubusercontent.com/u/16950207?v=4" width="90;" alt="jeasonnow"/>
+            <br />
+            <sub><b>Santree</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/QingZ11">
             <img src="https://avatars.githubusercontent.com/u/38887077?v=4" width="90;" alt="QingZ11"/>
             <br />
@@ -281,13 +288,6 @@ Pake's development can not be without these Hackers. They contributed a lot of c
             <img src="https://avatars.githubusercontent.com/u/33340988?v=4" width="90;" alt="exposir"/>
             <br />
             <sub><b>孟世博</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/jeasonnow">
-            <img src="https://avatars.githubusercontent.com/u/16950207?v=4" width="90;" alt="jeasonnow"/>
-            <br />
-            <sub><b>Santree</b></sub>
         </a>
     </td>
     <td align="center">
@@ -327,6 +327,13 @@ Pake's development can not be without these Hackers. They contributed a lot of c
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/Milo123459">
+            <img src="https://avatars.githubusercontent.com/u/50248166?v=4" width="90;" alt="Milo123459"/>
+            <br />
+            <sub><b>Milo</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/princemaple">
             <img src="https://avatars.githubusercontent.com/u/1329716?v=4" width="90;" alt="princemaple"/>
             <br />
@@ -346,15 +353,15 @@ Pake's development can not be without these Hackers. They contributed a lot of c
             <br />
             <sub><b>Null</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/liusishan">
             <img src="https://avatars.githubusercontent.com/u/33129823?v=4" width="90;" alt="liusishan"/>
             <br />
             <sub><b>Liusishan</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/piaoyidage">
             <img src="https://avatars.githubusercontent.com/u/5135405?v=4" width="90;" alt="piaoyidage"/>
